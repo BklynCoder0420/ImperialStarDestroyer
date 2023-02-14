@@ -4,7 +4,6 @@ public class Engine_C extends ShipEngine {
     
     private String EngineType = "C";
     private String ISD1 = "Imperial_I";
-    //private String starDestroyerType;
 
     public Engine_C(String StarDestroyerType) {
         super("C", "Imperial_I", 225, 75, 15000000, 125);

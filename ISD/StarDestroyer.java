@@ -124,22 +124,6 @@ public abstract class StarDestroyer {
     FBay fbay = new FBay(getShpNumber(), getShpClass());
     PBay pbay = new PBay(getShpNumber(), getShpClass());
     public void displayInfo() {
-        /*System.out.println("______Ship Specification______" + "\nShip Number: " + getShpNumber() + "\tShip Type: " + ShpType + "\tShip Name: " 
-        + this.ShpName + "\tShip Class: " +  getShpClass() + "\tShip Crew: " + getShpCrew());
-        hull.setStarDestroyerType(getShpClass());
-        hull.displayHullSpecs();
-        //deck.displayDeckSpecs();
-        deck.setStarDestroyerType(getShpClass());
-        deck.displayDeckSpecs();
-        engines.setStarDestroyerType(getShpClass());
-        engines.displayEngineSpecs();
-        sbay.setStarDestroyerType(getShpClass());
-        sbay.displayBayInfo();
-        fbay.setStarDestroyerType(getShpClass());
-        fbay.displayBayInfo();;
-        pbay.setStarDestroyerType(getShpClass());
-        pbay.displayBayInfo();
-        //getShpHulls().displayHullSpecs();
-        //getShpDecks().displayDeckSpecs(); */
+
     }
 }

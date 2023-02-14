@@ -7,7 +7,6 @@ public class FwdHullSection extends HullSection {
     private String ISD1 = "Imperial_I";
 
     public FwdHullSection(String StarDestroyerType) {
-        //super("Fwd", "Imperial_I", 900, 100, 75, 350);
         super("Fwd", "Imperial_I", 900, 100, 75, 350);
         if(getStarDestroyerType().equals(ISD1)) {
             setHullType("Fwd");
@@ -25,11 +24,6 @@ public class FwdHullSection extends HullSection {
         }
     }
 
-/* 
-    public FwdHullSection(String ISDI) {
-        super("Fwd", "Imperial_II", 900, 100, 75, 350);
-    }
-*/
     public String getHullType() {
         return HullType;
     }

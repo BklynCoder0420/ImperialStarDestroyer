@@ -23,10 +23,6 @@ public class ISD1_Factory extends ISDFactory{
     
     //@Override
     public boolean buildISDs(int count) {
-        /*boolean retVal = false;
-        for(int i = 0; i < count; i++) {
-            retVal = true;
-        } */
         for(int i = 0; i < count; i++) {
             int ISD1SN = 83 + i;
             int ISD1Name = 1 + i;
@@ -39,15 +35,6 @@ public class ISD1_Factory extends ISDFactory{
     }
 
     public void displayISDs(int count) {
-        /*Imperial_I[] IList = new Imperial_I[count];
-        for(int i = 0; i < count; i++) {
-            int ISD1SN = 83 + i;
-            int ISD1Name = 1 + i;
-            String I1ShpNumber = "ISD-" + Integer.toString(ISD1SN);
-            String I1ShpName = "SD-00" + Integer.toString(ISD1Name) + "_I";
-            IList[i] = new Imperial_I(I1ShpNumber, I1ShpName);
-            IList[i].displayInfo();
-        } */
         for(StarDestroyer s : this.getDryDock()) {
             s.displayInfo();
         }

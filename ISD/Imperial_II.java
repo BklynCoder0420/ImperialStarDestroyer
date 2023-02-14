@@ -22,27 +22,7 @@ public class Imperial_II extends StarDestroyer implements Maneuvers, Docks, Laun
         this.setPortBay(new PBay(getShpNumber(), getShpClass()));
         this.setForwardBay(new FBay(getShpNumber(), getShpClass()));
     }
-/*
-    public String getShpClass() {
-        return ShpClass;
-    }
 
-    public void setShpClass(String shpClass) {
-        ShpClass = shpClass;
-    }
-
-    public int getShpCrew() {
-        return ShpCrew;
-    }
-
-    public void setShpCrew(int shpCrew) {
-        ShpCrew = shpCrew;
-    }
-    
-    public void displayImperial_II() {
-
-    }
-*/
     @Override
     public boolean launchFighters() {
         // TODO Auto-generated method stub

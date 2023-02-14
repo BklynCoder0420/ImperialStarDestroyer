@@ -35,10 +35,7 @@ public class Engine {
     }
 
     public ShipEngine[] getEngines() {
-        //ShipEngine[] Engines = new ShipEngine[3];
         Engines[0] = new Engine_S(this.starDestroyerType);
-        //Engines[1] = new Engine_C(this.starDestroyerType);
-        //Engines[2] = new Engine_S(this.starDestroyerType);
         return Engines;
     }
 
