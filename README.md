@@ -1,6 +1,6 @@
 # Imperial Star Destroyer
 ## Description
-The Imperial Star Destroyer is thw main warship of the Galactic Empire. There are multiple different variants of the Imperial Star Destroyer. The purpose of
+The Imperial Star Destroyer is the main warship of the Galactic Empire. There are multiple different variants of the Imperial Star Destroyer. The purpose of
 this application is to create an abstraction of the two variants of the Imperial Star Destroyer. When you run the application it will ask you how many Imperial
 Star Destroyers you would like to build followed by which variant you would like to build. There are only two variants, 1 or 2. Based on the number of Imperial 
 Star Destroyers you want to build and the variant you choose you will see output in your terminal like the example below:
